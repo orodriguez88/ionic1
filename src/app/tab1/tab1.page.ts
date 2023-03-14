@@ -11,14 +11,11 @@ export class Tab1Page implements OnInit {
 
   ngOnInit(): void {
 
+    let numero= 10;
 
-      let numero= 10;
-       debugger;
-      numero =  numero +15;
-
-
+    numero =  numero +15;
 
     console.log(numero);
-  }
+    }
 
 }
